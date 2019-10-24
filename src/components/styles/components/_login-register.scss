@@ -1,0 +1,76 @@
+.form_block {
+  width: 50rem;
+  display: table;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+
+  &__title {
+    background: $purple;
+    padding: 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+  }
+
+  &__body {
+    background: $light-blue;
+    padding: 5rem;
+    display: table;
+  }
+
+  &__input {
+    width: 100%;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    background: $dark-blue;
+    border-bottom: 0.3rem solid darken($dark-blue, 10%);
+    border: none;
+    border-radius: 0.3rem;
+    color: $light-white;
+    font-size: 1.4rem;
+  }
+}
+.registerBtn {
+  float: right;
+  background: $purple;
+  margin-top: -3.5rem;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 1rem;
+  border: none;
+  border-bottom: 0.3rem solid darken($purple, 10%);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.loginBtn {
+  box-sizing: border-box;
+  padding: 1rem;
+  color: #fff;
+  border: none;
+  border-bottom: 0.3rem solid darken($purple, 10%);
+  border-radius: 0.3rem;
+  background: $purple;
+  cursor: pointer;
+}
+
+.loginBtn:hover,
+.registerBtn:hover {
+  background: $purple-light;
+}
+
+.Error {
+  padding: 1rem;
+  background-color: #feeaea;
+  border: 1px solid #fadadb;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+}
