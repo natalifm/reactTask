@@ -1,3 +1,12 @@
+## React todo;
+* Register and login into the system(using firebase); 
+* Add your task;
+* Remove, remove all task;
+* Pick what should you do;
+
+**Link [here](https://react-todo-task.netlify.app/)**
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
